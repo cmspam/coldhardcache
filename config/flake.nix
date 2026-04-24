@@ -97,7 +97,8 @@
           modules = [
             ./hosts/${name}/configuration.nix
             { nixpkgs.overlays = [ kernelOverlay ]; }
-          ] ++ extraModules;
+          ]
+          ++ extraModules;
         };
     in
     {
