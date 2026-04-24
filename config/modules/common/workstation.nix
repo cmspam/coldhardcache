@@ -15,6 +15,7 @@
     nixfmt
     jq
     comma
+    python3
 
     # Utilities
     unzip
