@@ -9,7 +9,7 @@
     ./services.nix
 
     ../../modules/common
-    ../../modules/desktop/plasma.nix
+    ../../modules/desktop
     ../../modules/gaming
     ../../modules/gaming/jovian.nix
     ../../modules/gaming/sunshine.nix

@@ -10,7 +10,7 @@
     ./graphics.nix
 
     ../../modules/common
-    ../../modules/desktop/plasma.nix
+    ../../modules/desktop
     ../../modules/gaming
     ../../modules/locale/japan.nix
     ../../modules/virt/waydroid.nix
