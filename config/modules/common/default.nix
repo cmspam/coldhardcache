@@ -5,6 +5,7 @@
   imports = [
     ./workstation.nix
     ./shell.nix
+    ./fixes.nix
     ../../users
     inputs.lanzaboote.nixosModules.lanzaboote
     inputs.cache.nixosModules.default

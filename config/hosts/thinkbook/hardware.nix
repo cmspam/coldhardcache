@@ -24,7 +24,7 @@
 
   # Zram Swap
   zramSwap = {
-    enable = true;
+    enable = false;
     algorithm = "zstd"; # Best compression ratio, same as your btrfs
     memoryPercent = 50; # Default; gives you up to 50% of RAM as compressed swap
   };

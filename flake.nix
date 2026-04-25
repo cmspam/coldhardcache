@@ -125,6 +125,9 @@
                 Restart = "on-failure";
                 DynamicUser = true;
                 CacheDirectory = "nixcache-proxy";
+                # Belt-and-suspenders: if the proxy ever stalls during
+                # shutdown, don't make rebuilds wait 90s for SIGKILL.
+                TimeoutStopSec = "10s";
               };
             };
             nix.settings = {
