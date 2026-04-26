@@ -27,7 +27,7 @@
 
     # Enable systemd in initrd for TPM
     initrd.systemd.enable = true;
-
+    blacklistedKernelModules = [ "ntfs3" ];
     # FUSE support
     supportedFilesystems = [ "fuse" ];
   };
