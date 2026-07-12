@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1783789388,
-        "narHash": "sha256-dBb/ML8vWRsIG49TMS5cjV5pGIiCMHPLd8ZwL4V+pEg=",
+        "lastModified": 1783838361,
+        "narHash": "sha256-7Yffe6LSAEH/pg05fcqwc2b1iKJmuffzRAdzg4vn5BE=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "c07dcae0dccbe1f7788969603dea597f93098155",
+        "rev": "e93c6c0c791a0c0753172dfc95e4808f02d2edbe",
         "type": "github"
       },
       "original": {
