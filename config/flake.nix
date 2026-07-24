@@ -83,6 +83,32 @@
             description = "User";
           };
 
+      # patool's mime tests expect `file` to look through bzip2/xz/lzma
+      # compression to the inner tar. Current `file` reports the outer
+      # compression instead, so 12 tests fail and every dependent
+      # (bottles, and through it system-path) fails to build.
+      # Test list matches nixpkgs PR #544037; drop this once that merges.
+      patoolOverlay = final: prev: {
+        pythonPackagesExtensions = prev.pythonPackagesExtensions ++ [
+          (pyfinal: pyprev: {
+            patool = pyprev.patool.overridePythonAttrs (old: {
+              disabledTests = (old.disabledTests or [ ]) ++ [
+                "test_py_tarfile_bz2"
+                "test_py_tarfile_bz2_file"
+                "test_tar_bz2"
+                "test_tar_bz2_file"
+                "test_tar_lzip"
+                "test_tar_lzma"
+                "test_tar_xz"
+                "test_tar_xz_file"
+                "test_mime_file"
+                "test_mime_file_bzip"
+              ];
+            });
+          })
+        ];
+      };
+
       mkHost =
         {
           name,
@@ -96,7 +122,7 @@
           };
           modules = [
             ./hosts/${name}/configuration.nix
-            { nixpkgs.overlays = [ kernelOverlay ]; }
+            { nixpkgs.overlays = [ kernelOverlay patoolOverlay ]; }
           ]
           ++ extraModules;
         };
