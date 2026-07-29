@@ -7,48 +7,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1785260359,
-        "narHash": "sha256-+FMJlZvPjpD9OJsY1rKn1VZWE905T3G8Vww9dLG83Xg=",
+        "lastModified": 1785306965,
+        "narHash": "sha256-6ssrm2OcZOyfsmYnb1UC+MTcObALrHVxTcpHX1yiLN4=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "4c96bbc94be749af4ad0d4e63112ce6ed43bae29",
+        "rev": "62ed448767664b65e43e039d27eae062a4e13654",
         "type": "github"
       },
       "original": {
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "type": "github"
-      }
-    },
-    "cachyos-kernel": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1785158249,
-        "narHash": "sha256-zM8SbqeC6GaFeHGclXNO3+JGTeyQ3o3IjRV+sw0OWgs=",
-        "owner": "CachyOS",
-        "repo": "linux-cachyos",
-        "rev": "74d5bae1a1598c188ca6df932d8db15cdbf41975",
-        "type": "github"
-      },
-      "original": {
-        "owner": "CachyOS",
-        "repo": "linux-cachyos",
-        "type": "github"
-      }
-    },
-    "cachyos-kernel-patches": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1785252369,
-        "narHash": "sha256-SQvLY9Lco7LRIu/C68h/ynaFFMih4Pdd6qS0zUDEDUA=",
-        "owner": "CachyOS",
-        "repo": "kernel-patches",
-        "rev": "3d5a42bde5558a2838d58766e710a7d458e309dc",
-        "type": "github"
-      },
-      "original": {
-        "owner": "CachyOS",
-        "repo": "kernel-patches",
         "type": "github"
       }
     },
@@ -202,18 +170,16 @@
     },
     "nix-cachyos-kernel": {
       "inputs": {
-        "cachyos-kernel": "cachyos-kernel",
-        "cachyos-kernel-patches": "cachyos-kernel-patches",
         "flake-compat": "flake-compat_2",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1785265010,
-        "narHash": "sha256-SUM6+GXAR/m2q25TzUeIPJbw691v2mpZokGBHkUqrNA=",
+        "lastModified": 1785302044,
+        "narHash": "sha256-r5/EBWjE58+7k8D8KD7Xj2OzrJ6Qak3QOqJVyCcFLy0=",
         "owner": "xddxdd",
         "repo": "nix-cachyos-kernel",
-        "rev": "eeec246f7e6d12182f4148a9d8a00d328af62652",
+        "rev": "3ca5db0202822769c2f0b96dfb8eab8c95484795",
         "type": "github"
       },
       "original": {
