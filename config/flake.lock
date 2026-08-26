@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787676164,
-        "narHash": "sha256-E85Eu68vycTZO1LyuqEElDLEn7dkV4MqADL8udbjmoQ=",
+        "lastModified": 1787719513,
+        "narHash": "sha256-JpQV8mIg7cXKtjMm1KsRku3Kg4e6xy8AP/ljlvlCQV8=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "f6173a116d2667fdf9408f9236981bcdc9610a63",
+        "rev": "904171f1de60eef26b1b4cd5c5a1b244777b800f",
         "type": "github"
       },
       "original": {
@@ -132,11 +132,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787588947,
-        "narHash": "sha256-vopDnGOldf4OkjKPVbXKofNR8ombOhtfSps53/vmEwM=",
+        "lastModified": 1787739095,
+        "narHash": "sha256-9fpP1QhSSFZdhZLj7U71Y/nSPtZ+TaVUG/O9Mz+E+0Q=",
         "owner": "Jovian-Experiments",
         "repo": "Jovian-NixOS",
-        "rev": "ee06a054cfe10bcdf78dc4afca1d1b8c9e5721d1",
+        "rev": "e41d1573e2198452825c4d9d1b4dbedb13631d07",
         "type": "github"
       },
       "original": {
