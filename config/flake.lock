@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792487895,
-        "narHash": "sha256-1uLUGwh2+4WommLZ5bf/GCpQw06knNObVUNNMWxMM1E=",
+        "lastModified": 1792526171,
+        "narHash": "sha256-raFABu4RUJimMhkWAg/Pm8zpAhUufDRJen5U3vNb5Sw=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "44b60484ff920786766d4d73329346153e5dfe9f",
+        "rev": "bcf5fabaaaedcb0051312fd5b105a99aa3294ccf",
         "type": "github"
       },
       "original": {
@@ -333,11 +333,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792352106,
-        "narHash": "sha256-prP3RCHQqTEW9pFHhu93Y20GMEjFdRFa/YxnJlmv0Qo=",
+        "lastModified": 1792529282,
+        "narHash": "sha256-RA7lNpX1NbW0S7t0PyTATYJ7nAYUpCiQ5omqISIl9r0=",
         "owner": "cmspam",
         "repo": "qemu-patched",
-        "rev": "0b0729b18fff26b7a03a91f350a05135d680336e",
+        "rev": "efdc3168dc255f8a445474cbeae4550b2ab6c551",
         "type": "github"
       },
       "original": {
