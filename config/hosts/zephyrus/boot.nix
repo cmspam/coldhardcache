@@ -50,8 +50,6 @@
       crypttabExtraOpts = [ "tpm2-device=auto" ];
     };
 
-    # Enable systemd in initrd for TPM
-    initrd.systemd.enable = true;
 
     # FUSE support
     supportedFilesystems = [ "fuse" ];

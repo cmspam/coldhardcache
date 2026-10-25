@@ -26,8 +26,6 @@
     # Latest kernel
     kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [ "quiet" ];
-    # Enable systemd in initrd for TPM
-    initrd.systemd.enable = true;
     # FUSE support
     supportedFilesystems = [ "fuse" ];
     consoleLogLevel = 0;
