@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792831615,
-        "narHash": "sha256-UwjhPlvAXXEgG6YqQhFfvneloub4URaHn1DlzSKSlNg=",
+        "lastModified": 1792867261,
+        "narHash": "sha256-nSlWoUoKBDe4Ct2Pv4UDny2rVWlCrDUR6JZWshb8zFc=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "556c3e64138922ac656b2a98424a5ca7acd920fa",
+        "rev": "882a3d518cd1c54d9774e08b66a2ae7029c5a023",
         "type": "github"
       },
       "original": {
@@ -290,11 +290,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1792502884,
-        "narHash": "sha256-IoNisKcGbUjdd45qCqywGMCYmZ5EnkxezvLII0FWwNA=",
+        "lastModified": 1792773339,
+        "narHash": "sha256-rZLrzrC6i+jnTAlvPZHogKDulY7WWDEv9hJeHieO7Zw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+        "rev": "3ec636362e1816bc2f0888fa0fa2c69f1bc9e504",
         "type": "github"
       },
       "original": {
@@ -333,11 +333,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792529282,
-        "narHash": "sha256-RA7lNpX1NbW0S7t0PyTATYJ7nAYUpCiQ5omqISIl9r0=",
+        "lastModified": 1792870975,
+        "narHash": "sha256-rJsmSjgMe6sk7XVKl5cZFj/JrMnIbJr/mq9wimOF6/s=",
         "owner": "cmspam",
         "repo": "qemu-patched",
-        "rev": "efdc3168dc255f8a445474cbeae4550b2ab6c551",
+        "rev": "0114b4a1daeabc58cd3cf671e1c715405a2948ff",
         "type": "github"
       },
       "original": {
