@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1793793455,
-        "narHash": "sha256-nydqg5bWPJ5RakXRUNp4mr9b5Dn7HmwPHGMIP1qsHmo=",
+        "lastModified": 1793828780,
+        "narHash": "sha256-dTLCrQllkl0qJM0P8EpO2e7AsNGLQsQflhtvYh+CQPY=",
         "owner": "cmspam",
         "repo": "coldhardcache",
-        "rev": "ed36826f6a9b32ec20fd0e843570220719dd2340",
+        "rev": "9265de23858f549ad2e7d933a404c7e9c4696280",
         "type": "github"
       },
       "original": {
@@ -175,11 +175,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1793745112,
-        "narHash": "sha256-5LscvsaetrpuLTGJFU6zZ5n4m6aMJt2PELarem20IQo=",
+        "lastModified": 1793832759,
+        "narHash": "sha256-IzzZu1ADb/zEYQbTLb0K3b2Zm/FDEudgxDtl+N26qQ8=",
         "owner": "xddxdd",
         "repo": "nix-cachyos-kernel",
-        "rev": "f20c85dac2eef06564ebc27729264f4f75ae7e1c",
+        "rev": "25112ab9d0ecb94f7c6e11f363d033ddbe79cbe8",
         "type": "github"
       },
       "original": {
@@ -215,11 +215,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1793355509,
-        "narHash": "sha256-/Zs18x+IW4LuVH0rKxra0WPRgsk0DQsi0Bwkf8sOC5c=",
+        "lastModified": 1793871777,
+        "narHash": "sha256-DbFyxXHjP4SJDWVVIILkgrUZxj29cDusi8ULXoQGuZ8=",
         "owner": "nixos",
         "repo": "nixos-hardware",
-        "rev": "04c6b94fa104bc23650983a4513aea196794d321",
+        "rev": "d645c71a58dbae3eb17ff551a07aea13a541cb1a",
         "type": "github"
       },
       "original": {
@@ -230,11 +230,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1793724369,
-        "narHash": "sha256-Sji9qr1FFKDjy5TuJ3AYbx/Xihry2N6iThdD6X9FIGQ=",
+        "lastModified": 1793811156,
+        "narHash": "sha256-XOUPWb/dGixZZNGpWPRXx7XWzdSJx+gBCIoywJtRfNU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "925d0c21b2827871792dca3e23117417378577d3",
+        "rev": "4b566d4013546271cc1301fe20e62de6651e9834",
         "type": "github"
       },
       "original": {
@@ -333,11 +333,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1793664038,
-        "narHash": "sha256-7egwubioTEFT0/5DDerPXbkOGY6UOhOo3gM2RLnvaWw=",
+        "lastModified": 1793832527,
+        "narHash": "sha256-PMjPjxmHCg8rQyMiDtpKRM2w3x19SfTpeMS51x8zfYw=",
         "owner": "cmspam",
         "repo": "qemu-patched",
-        "rev": "2cffb5112a4ff3e0624e66a0e89499b8a97af09f",
+        "rev": "b1aeb0fd7ea3e6335ae52353467aa257607ef948",
         "type": "github"
       },
       "original": {
